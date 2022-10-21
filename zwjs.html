@@ -1,0 +1,78 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人介绍</title>
+    <link rel="stylesheet" href="css/aihao.css">
+
+</head>
+
+<body>
+    <div id="bigbox">
+        <div class="t1 fix">
+            <div class="tl">Keep Coding</div>
+            <div class="tr">
+                <ul class="ur">
+                    
+                    
+						<li><a href="index.html">主页</a></li>
+						<li><a href="233.html">个人介绍</a></li>
+						<li><a href="zwjs.html">留言</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div id="banner">
+            <img class="img-slide img1" src="img/1.jpg" alt="1">
+            <img class="img-slide img2" src="img/2.jpg" alt="2">
+            <img class="img-slide img3" src="img/3.jpg" alt="3">
+        </div>
+        <nav>
+       <br>  正因为你为你的玫瑰花费了时间，这才使你的玫瑰变得如此重要。
+
+        </nav>
+        <div id="main">
+            <div id="main_right">
+
+                <h2>关于我</h2>
+                <p>
+                    一、兴趣爱好<br>
+                    我的平时喜欢在家看看电影，旅游摄影，喜欢宅家也喜欢外出，<br>喜欢用镜头补捉生活的美好，也喜欢千转百回，体味不同人生的电影。
+                </p>
+                <p>
+                    二、关于我的性格<br>
+                   我是一只既社恐，又社牛的女生，和要好的朋友在一起可以非常的外向。<br>但和不熟悉的陌生人可能慧局促不安，努力的和大家做朋友。
+                </p>
+                <p>
+                    三、目标<br>
+					这学期的目标是能够顺利通过考试，能够核心课70分以上，拿到学位证顺利<br>毕业。
+                   
+                </p>
+                <img src="img/4.jpg" alt="">
+            </div>
+        </div>
+        <footer>
+            <p>
+               只有孩子知道他们在寻找什么。
+            </p>
+        </footer>
+    </div>
+    <script type="text/javascript">
+        var index=0;
+        //效果
+        function ChangeImg() {
+            index++;
+            var a=document.getElementsByClassName("img-slide");
+            if(index>=a.length) index=0;
+            for(var i=0;i<a.length;i++){
+                a[i].style.display='none';
+            }
+            a[index].style.display='block';
+        }
+        //设置定时器，每隔两秒切换一张图片
+        setInterval(ChangeImg,3000);
+    </script>
+</body>
+
+</html>

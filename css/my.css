@@ -1,0 +1,49 @@
+#max{
+    width: 500px;
+    height: 300px;
+    align-items: center;
+    margin: 5% auto;
+    margin-top: 0%;
+  }
+  .re{
+    position: relative;
+    height: 300px;
+  }
+  .re ul{
+    list-style-type:none ;
+  }
+  .re ul>li{
+    width: 500px;
+    height: 300px;
+    position: absolute;
+  
+    transition: 1s;
+    opacity: 0;
+  }
+  .re ul>li img{
+    width: 500px;
+    height: 300px;
+    border-radius: 10%;
+    border: 15px solid #fffbd6;
+  }
+  #max ol {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(5,75px);
+    grid-template-rows: auto;
+    grid-gap: 1em;gap: 1em;
+    
+    
+    list-style: none;
+    top: 300px;;left:0;
+  }
+  #max ol li {
+    width: 15px;
+    height: 10px;
+    font-size: 15px;
+    line-height: 20px;
+    float: left;
+    text-align: center;
+    border-radius: 2em;
+    border: 3px solid #999999;
+  }

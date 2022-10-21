@@ -1,0 +1,120 @@
+			.main{
+				position: relative;
+				margin: auto;
+				background-color: antiquewhite;
+				width: 1300px;
+				height: 800px;
+			}
+			.main #box1{
+				position:absolute;
+				background-color: aliceblue;
+				top: 20px;
+				left: 50px;
+				height: 300px;
+				width: 400px;
+			}
+			.main #box2{
+				position: absolute;
+				background-color: aliceblue;
+				top: 40px;
+				left: 1000px;
+				height: 750px;
+				width: 250px;
+			}
+			.main #box2 .pic{
+				margin:0 auto;margin-top:30px;
+				margin-left: 50px;
+				
+				
+			}
+			.main #box2 .pic img{
+				border: 5px solid #f061a4;
+			}
+			
+			.main #box2 .indu p{
+				width:230px;
+				margin:0 auto;font-size:16px;color:rgb(120, 130, 189);padding:10px 0px 3px 10px;border-bottom:1px solid rgb(144, 103, 219);
+			}
+			 .box4{
+				position: absolute;
+				background-color: antiquewhite;
+				bottom: 30px;
+				left: 10px;
+				border:2px solid rgb(218, 213, 206);
+				width: 230px;
+				height: 300px;
+			}
+			.box4 p{
+				font-size:16px;color:rgb(120, 130, 189);padding:10px 0px 3px 10px;border-bottom:1px solid rgb(144, 103, 219);
+			}
+			.main .box7{
+				position: absolute;
+				bottom: 420px;
+				left: 50px;
+
+			}
+			.shi{
+				position: absolute;
+				background-color: antiquewhite;
+				top: 30px;
+				right: 400px;
+				
+				width: 230px;
+				height: 300px;
+			}
+			.shi p{
+				font-size:20px;color:rgb(1, 4, 19);padding:10px 0px 3px 10px;border-bottom:1px solid rgb(144, 103, 219);
+			}
+			
+			.main .weizi{
+				
+				
+				width:920px;height:18px;line-height:28px; background-color:antiquewhite;
+			}
+		.weizi .wz_text{font-size:16px;color:#444;padding-left:25px;}
+		.weizi .wz_text h1{font-size:16px;color:#F00E71;display:inline;font-weight:500;}
+		.weizi .wz_text a{color:#444;}
+		.weizi .wz_text a:hover{text-decoration:underline;color:#f00;}
+		.say_box {background:#f8f8f8;box-shadow: 0px 1px 0px rgba(255,255,255,.1), inset 0px 1px 1px rgba(214, 214, 214, 0.7);width:740px; border-radius:5px;position:relative; padding: 20px 0;
+		margin:10px 0;font-size:14px;font-family:"宋体"; }
+		.say_box p {line-height:10px;padding:0 20px 20px ;}
+		.say_box::before {content: "";width:0px;height:0px;border-style:solid;border-width:0px 0 20px 22px;border-color:transparent transparent transparent #fff;position:absolute;left:740px;top: 23px; }/* 三角形 */
+		.say_box::after {content: "";width: 10px;height: 10px;border-radius: 50%;position:absolute;left:763px;top:16px;background:#CCCCCE;border: 2px solid #fff;transition:all 0.5s; }/* 圆形 */
+		.say_box:hover::before {border-color:transparent transparent transparent #CECCCD }/* 三角形 */
+		.say_box:hover::after {border:#fff 2px solid;background:#999; }/* 圆形 */
+		.say_box:hover {background: #f4f2f2;color:#333; text-shadow: #f7f7f7 1px 1px 1px }
+			.t2{
+				letter-spacing: 0px;
+			}
+			.content a{
+				color: cornflowerblue;
+				text-decoration: none;
+			}
+			.content p{
+				color: grey;
+				font-family: "楷体";
+				font-size: 20px;
+				margin-bottom:10px ;
+			}
+			.title{
+				font-family: "微软雅黑";
+				color: black;
+				font-size: 35px;
+				font-weight: 700;
+				margin-top:35px ;
+			}
+			.img{
+				margin: 0 auto;
+				width: 200px;
+				height: 300px;
+				background-image: url(img/weibo.png);
+			}
+			.content{
+				margin: 50px auto;
+				width: 20%;
+			}
+			.head{
+				
+				background-color: #e49fde;
+				height: 150px;
+			}
